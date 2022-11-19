@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing</title>
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex flex-row justify-content-between mb-30">
+        <button class="btn btn-success" id="again">Again!</button>
+        <p>Between 1 and 20</p>
+      </div>
+
+      <h1 class="text-center mt-5">Guess My Number</h1>
+      <div class="d-flex justify-content-center mt-5">
+        <div class="border border-dark" id="secret">?</div>
+      </div>
+
+      <div class="mt-5 d-flex flex-row justify-content-around">
+        <div>
+          <input type="number" class="" id="input" /><br />
+          <button
+            class="btn btn-success mt-3 ms-2 border-rounded"
+            id="btnClick"
+          >
+            Check!
+          </button>
+        </div>
+        <div>
+          <p class="h3 fw-bold mt-3" id="message">Start Guessing....</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <p class="h4">Score: <span class="score">20</span></p>
+        <p class="h4">High Score: <span class="highScore">0</span></p>
+      </div>
+    </div>
+
+    <script src="./asset/jquery/jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

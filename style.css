@@ -1,0 +1,35 @@
+body {
+  background: rgb(95, 162, 164);
+}
+
+#secret {
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#input {
+  width: 100px;
+  height: 70px;
+  text-align: center;
+}
+
+/* #show {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 2;
+  opacity: 0.5;
+} */
+#messageBox {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+}
+
+/* #messageBox {
+  display: none;
+} */
